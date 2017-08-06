@@ -1,0 +1,22 @@
+{
+  "name": "lesson2",
+  "version": "1.0.0",
+  "description": "node.js task lesson2",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node.js-lessons"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Difan",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.15.3",
+    "utility": "^1.12.0"
+  }
+}
