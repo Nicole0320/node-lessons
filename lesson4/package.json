@@ -1,0 +1,24 @@
+{
+  "name": "lesson4",
+  "version": "1.0.0",
+  "description": "node.js lesson 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nicole0320"
+  },
+  "keywords": [
+    "node.js",
+    "lesson"
+  ],
+  "author": "Difan",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "eventproxy": "^1.0.0",
+    "superagent": "^3.5.2"
+  }
+}
