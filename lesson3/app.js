@@ -18,7 +18,6 @@ app.get('/', function(req, res){
             var html = '<ul>'
             $('.zm-topic-list-container .feed-main .content').each(function(index, value){
                 var $element = $(value);
-                console.log($element.children('h2').text())
                 items.unshift({
                     title: $element.children('h2').text(),
                     href: 'https://www.zhihu.com' + $element.find('.entry-body link').eq(0).attr('href'),
@@ -32,8 +31,7 @@ app.get('/', function(req, res){
             });
             html += '</ul>'
 
-            // console.log(items);
-            
+            console.log(items);
             res.send(html);
         })
 })
