@@ -1,0 +1,22 @@
+{
+  "name": "lesson5",
+  "version": "1.0.0",
+  "description": "node.js lesson 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nicole0320"
+  },
+  "keywords": [
+    "node",
+    "lesson\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D.js"
+  ],
+  "author": "Difan",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "async": "^2.5.0"
+  }
+}
