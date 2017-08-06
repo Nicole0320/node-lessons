@@ -43,7 +43,6 @@ superagent.get(cnodeUrl)
             superagent.get(topicUrl).end(function(err, res){
                 console.log('fetch ' + topicUrl + ' successfully');
                 ep.emit('topic_html', [topicUrl, res.text]);
-                console.log(res.text);
             })
-        })
+        }, this)
     })
