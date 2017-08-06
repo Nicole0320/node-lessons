@@ -1,0 +1,23 @@
+{
+  "name": "lesson3",
+  "version": "1.0.0",
+  "description": "node.js lesson 3",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nicole0320"
+  },
+  "keywords": [
+    "crawler"
+  ],
+  "author": "Difan",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.3",
+    "superagent": "^3.5.2"
+  }
+}
