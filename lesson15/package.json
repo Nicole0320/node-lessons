@@ -1,0 +1,21 @@
+{
+  "name": "lesson15",
+  "version": "1.0.0",
+  "description": "mongoose",
+  "main": "spp.js",
+  "scripts": {
+    "test": "\u001b[A\u001b[Btest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nicole0320"
+  },
+  "keywords": [
+    "mongoose"
+  ],
+  "author": "Difan",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.11.6"
+  }
+}
